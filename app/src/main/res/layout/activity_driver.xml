@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Driver">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  android:textColor="@android:color/black"
+  android:textSize="60sp"
+    android:layout_marginTop="40dp"
+  android:text="DRIVER"
+    android:textAlignment="center"/>
+
+
+  <Button
+      android:id="@+id/button_location"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="90dp"
+      android:textColor="@color/white"
+      android:text="Current Location" />
+
+  <TextView
+      android:id="@+id/text_location"
+      android:layout_width="375dp"
+      android:layout_height="55dp"
+      android:layout_marginTop="-140dp"
+      android:textColor="@color/white"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="120dp"
+      android:text="Select the Type of Vehicle"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bike"
+    android:id="@+id/Bike"/>
+
+  <RadioButton
+      android:id="@+id/Sedan"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sedan" />
+
+  <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="SUV"
+      android:id="@+id/SUV"/>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/black"
+    android:text=""
+    android:id="@+id/result"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Required No. of Hours"
+    android:textColor="@android:color/black"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    android:id="@+id/hours"
+    android:hint="No. of Hrs."
+    android:inputType="number"
+    android:textColor="@android:color/black"
+    android:textSize="18sp"/>
+  <TextView
+      android:id="@+id/tvDisplay"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/black"
+    android:textSize="18sp"
+    android:textStyle="normal"/>
+  <Button
+      android:id="@+id/payDriver"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Pay"
+      android:background="@android:color/black"
+      android:textSize="18sp"
+    android:textStyle="normal"/>
+
+</LinearLayout>

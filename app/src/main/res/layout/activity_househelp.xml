@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Driver">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:layout_marginTop="40dp"
+        android:text="HOUSEHELP"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:text="Current Location" />
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="375dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-140dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Select the Work"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dusting"
+        android:id="@+id/Dusting"/>
+
+    <CheckBox
+        android:id="@+id/Sweeping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sweeping" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Washing"
+        android:id="@+id/Washing"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:id="@+id/result"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Required No. of Hours"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hours"
+        android:hint="No. of Hrs."
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tvDisplayHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/payBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Pay" />
+
+</LinearLayout>

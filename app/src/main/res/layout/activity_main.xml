@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/btndriver"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="900dp"
+        android:layout_marginEnd="600dp"
+        android:layout_marginBottom="66dp"
+        android:text="Cab/Driver"
+        app:layout_constraintBottom_toTopOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/driver"
+        android:background="@color/white"
+
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/btnhousehelp"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="900dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="66dp"
+        android:text="Househelp"
+        app:layout_constraintBottom_toTopOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/househelp"
+        android:background="@color/white"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btngardener"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="1230dp"
+        android:layout_marginEnd="225dp"
+        android:text="Gardener"
+        app:layout_constraintBottom_toTopOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/gardener"
+        android:background="@color/white"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btnguard"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="-575dp"
+        android:layout_marginTop="1230dp"
+        android:layout_marginEnd="25dp"
+        android:text="Guard"
+        app:layout_constraintBottom_toTopOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/guard"
+        android:background="@color/white"
+        android:scaleType="fitCenter"  />
+    <ImageButton
+        android:id="@+id/btncook"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="225dp"
+        android:text="Cook"
+        app:layout_constraintBottom_toTopOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/cook"
+        android:background="@color/white"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/btndataentry"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="494dp"
+        android:layout_marginEnd="600dp"
+        android:layout_marginBottom="66dp"
+        android:text="DataEntry"
+        app:layout_constraintBottom_toTopOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/datatentry"
+        android:background="@color/white"
+        android:scaleType="fitCenter"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
